@@ -1,21 +1,6 @@
 .footer {
 	padding: 0;
-    background:#030303;
+    background:#c9c3c3;
     text-align: center
 }
 
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.wrap {
-    min-height: 84vh;
-}
-.form-group {
-color: white;
-}
-
-.display-1 {
-    color: white
-}
