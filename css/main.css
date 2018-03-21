@@ -1,5 +1,21 @@
-/* ---- Layout Containers ---- */
+.footer {
+	padding: 0;
+    background:#030303;
+    text-align: center
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .wrap {
-    min-height: 100vh;
+    min-height: 84vh;
+}
+.form-group {
+color: white;
+}
+
+.display-1 {
+    color: white
 }
