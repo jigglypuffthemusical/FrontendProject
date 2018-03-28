@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+   
     <title>Chelsea's Bakery</title>
   </head>
   <body>
@@ -25,9 +26,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" src="#img/torte.jpg">Cake Tasting</a>
+                
               </div>
             </div>
           </nav>
@@ -50,7 +51,7 @@
                   </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/bavarian.jpg" alt="Third slide">
+            <img class="d-block w-100" src="img/tart.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-sm-block">
                     <h1 class="display-2">Chelsea's Bakery</h1>
                     <p class="lead">World class baking, locally.</p>
@@ -65,17 +66,21 @@
 
 <!-- Content-->
 
-<div class="container"
-<p>This is where the form will go. Coming soon. </p>
+<div class="container">
+
+<h1>About </h1>
+<div class="about" id="about">
+<p>Chelsea's bakery opened it's doors on May 2001 and has been famous for it's delicous pastries and amazing wedding cakes. We are excited to introduce our new head pastry chef Chelsea Mofiz. She has experience with celebrity chef Nathan Lyon as well as crew of Carlos Bakery from the hit show Cake Boss. She is a local graduate from Sullivan University in Baking and Pastry Arts and has work experience from Germany. </p>
+</div>
 <form>
-    <h1>Wedding Cake Sampling</h1>
-        <div class="form-group">
+    <h1>Wedding Cake Tasting</h1>
+        <div class="needs">
           <label for="name">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
+          <input type="text" class="form-control" id="caketasting" placeholder="First Last">
         </div>
         <div class="form-group">
                 <label for="Phone">Phone Number</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="555-555-5555">
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="555-555-5555">
               </div>
         <div class="form-group">
           <label for="Date">Date</label>
@@ -93,7 +98,10 @@
               <div class="custom-control custom-radio">
                     <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
                     <label class="custom-control-label" for="customRadio3">2 p.m.-3p.m.</label>
+    <div class="button">
+            <button onclick="myFunction()">Schedule Tasting</button>
     
+    </div>
       </form>
 </div>
 
@@ -106,8 +114,12 @@
     <span>&copy;2018 Chelsea Mofiz</span>
 </footer>
 <!-- /Footer-->
+
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
+        
 </body>
 </html>
