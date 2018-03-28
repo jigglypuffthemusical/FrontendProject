@@ -1,10 +1,27 @@
+
+/*Created a sticky footer, this makes sure there is no vertical collapsing of content matterial and footer.*/
 .footer {
 	padding: 0;
-    background:#c9c3c3;
+    background:gray;
     text-align: center
 }
 
 
+/*Created a container for the main content of the page, which would seperate it from the header and the footer, and give it importance with background color*/
 .container {
-    padding: 2%;
+    padding: 5%;
+    background-color: silver;
 }
+
+/*Changed the font color and font text family to give emphasis on the about section.*/
+.about {
+    color: navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*To give a framing effect to the slideshow images, I gave it a black border and padding.*/
+img{
+    padding:1px;
+    border:10px solid black;
+  
+ }
